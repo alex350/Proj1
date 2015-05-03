@@ -1,0 +1,7 @@
+<% @items.each do |item| %>
+	<h3><%= link_to item.name,item %></h3>
+	<p><%= item.description %></p>
+<% end %>
+
+<%= link_to 'Edit', edit_category_path(@category) %> |
+<%= link_to 'Back', categories_path %>

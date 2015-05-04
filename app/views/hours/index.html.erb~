@@ -1,0 +1,14 @@
+<title> Pizza 3.14 </title>
+<style>
+body {background-color:#222626}
+h2   {color:white}
+h4   {color:white}
+p    {color:green}
+</style>
+
+<center><h2>Hours</h2></center>
+
+<center> <p>Monday-Thursday: 10:30am-9:00pm </p></center>
+<center> <p>Friday: 10:30am-9:00pm</p></center>
+<center> <p>Saturday & Sunday: 11:30am-9:00pm</p></center>
+<center> <p>*Deliveries until 10pm</p></center>

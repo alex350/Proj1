@@ -1,0 +1,18 @@
+<title> Pizza 3.14 </title>
+<style>
+body {background-color:#222626}
+h1   {color:white}
+p    {color:green}
+
+</style>
+<center><h1>Welcome to Pizza 3.14</h1>
+<img src="http://www.universityglencorp.csuci.edu/pizza314/images/pizza314-colorlogo.jpg" alt="Pizza 3.14 Logo" style="width:367px;height:331px">
+ </center>
+<center>
+<h3>
+<%= link_to "Menu", '/categories' %>
+<%= link_to "Contact Us", '/contact' %>
+<%= link_to "Yelp", 'http://www.yelp.com/biz/pizza-3-14-camarillo' %>
+</h3>
+</center>
+

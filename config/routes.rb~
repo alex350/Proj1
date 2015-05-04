@@ -3,9 +3,7 @@ Rails.application.routes.draw do
   get '/categories', to: 'categories#index'
   get '/contact', to: 'contact#index'
   get '/main/index', to: 'main#index'
-  get '/hours', to: 'hours#index'
 
-  resources :hours
   resources :contact
   resources :items
   resources :categories
